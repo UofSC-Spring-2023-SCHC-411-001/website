@@ -54,18 +54,23 @@ nav_order: 5
 
 ## Full Course Description 
 
-Figure out all values of $x,y,z$ that solve the equations
- $$ 
-    5x - 2y + z = 1 \\
-    -x + y - 3z = 0 \\
-    2x - y + z = -1 
- $$
-The most direct attack would perhaps be to repeatedly substitute and simplify to reach only a single variable equation. Are there easier ways? More efficient ways? What if we had 256 equations and 128 variables? 
+Proof assistants are tools that may seem to live a double life. Does my sorting
+algorithm actually sort? They can help assure that. Did I mess up my proof of
+Lagrange’s Theorem? They can help you find the error. In this course, we will
+acquaint ourselves with Lean, a proof assistant developed primarily at
+Microsoft Research. 
 
-In this class, we study the structure of linear equations from both very concrete and mildly abstract perspectives. We will develop tools that allow us to both gain a conceptual understanding of systems of linear equations and underpin robust computational tools. 
+We will prove theorems in Lean and verify small functional programs. In the
+process, we will learn about dependent types and the Curry-Howard isomorphism,
+which elegantly resolves the conflicts of our double life. Skills and knowledge
+from this course are transferable to other popular proof assistants like Coq
+and Agda. 
 
-Our pen, paper, and mental work will be supplemented with a working knowledge of [Sage](https://www.sagemath.org/). 
- 
+Students having completed Math 300 or Math 374 will have an easier time getting
+up to speed as will students with some experience with a functional programming
+language but don’t let this discourage you. Math and/or CS majors at any level
+should find value in this course. 
+
 ## Prerequisites 
 
 {{ site.prereqs }}
@@ -74,23 +79,16 @@ Our pen, paper, and mental work will be supplemented with a working knowledge of
 
 After successful completion of this course, you will be able to: 
 
-- Determine the complete solution to $Ax = b$
-- Relate linear transformations, matrices, and change of basis
-- Recognize linearly dependent and independent collections of vectors
-- Compute bases and dimensions of vector spaces
-- Orthogonalize vectors using Gram-Schmidt
-- Know and use the properties of determinants
-- Compute eigenvalues and eigenvectors
-- Appreciate the ubiquity of linear algebra across science
+- Use the Lean Theorem Prover to prove properties about basic programs
+- Use the Lean Theorem Prover to prove basic mathematical results
+- Describe the type theory underlying Lean 
+- Recognize the duality between writing a program and proving a theorem
 
 ## Course Materials 
 
-The main resources for materials are the [course website](https://544.f21.matthewrobertballard.com) and the [Microsoft Team](https://teams.microsoft.com/l/channel/19%3aJgLzdLZpFCbmrJptHxrA2E7bvjwXsxJFPmFdJmn1-CI1%40thread.tacv2/General?groupId=5ff176b0-5dbd-44cb-a436-ec0c668e897e&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc) for the course. 
+The main resources for materials are the [course website]({{ site.url }}) and the [Microsoft Team]({{ site.teams_url }}) for the course. 
 
-Some supplemental (and optional) resources:
-- K. Kuttler. [A first course in linear algebra](https://www.oercommons.org/courses/first-course-linear-algebra/view) (Open Access)
-- J. Hefferon. [Linear algebra](https://joshua.smcvt.edu/linearalgebra/) (Open Access)
-- G. Strang. [Introduction to linear algebra](http://math.mit.edu/~gs/linearalgebra/) 
+The textbook for this course is: {{ site.text }}.
 
 All course materials comply with copyright/fair use policies. 
 
@@ -131,7 +129,7 @@ To participate in learning activities and complete assignments, you will need:
 
 - If you plan to submit handwritten assignments, a scanning device such as a smartphone with the Microsoft Office Lens app.  
 
-- The main hub for this course is the Microsoft Teams team [COTEAM-BALLARMR-MATH-544-H01-FALL-2021](https://teams.microsoft.com/l/channel/19%3aJgLzdLZpFCbmrJptHxrA2E7bvjwXsxJFPmFdJmn1-CI1%40thread.tacv2/General?groupId=5ff176b0-5dbd-44cb-a436-ec0c668e897e&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc) run through UofSC’s Microsoft Teams account. To access the team for the first time on your desktop/laptop, you can use the join link including in your welcome email.   
+- The main hub for this course is the Microsoft Teams [team]({{ site.teams_url }}) run through UofSC’s Microsoft Teams account. To access the team for the first time on your desktop/laptop, you can use the join link including in your welcome email.   
 
 - We will be using a computer algebra system called [Sage](https://www.sagemath.org/) to aid our learning. It blows your graphing calculator out of the water and is ideally suited to STEM work. Built as a super-set of the popular programming language [Python](https://www.python.org/), Sage skills will translate into Python skills. There are three main ways to access Sage: 
     - [SageMathCell](https://sagecell.sagemath.org/) is ideal for a computation involving a few lines. 
@@ -369,9 +367,9 @@ I am expected to facilitate learning, answer questions appropriately, be fair an
 
 I will cite and/or reference any materials that I use in this course that I do not create. 
 
-Anything that appears on this website is copyright &copy; 2021 Matthew Ballard and is distributed by an <a href="https://github.com/UofSC-Fall-2021-Math-544-H01-UofSC-Fall-2021-Math-544-H01.github.io/tree/master/LICENSE.txt\">MIT license.
+Anything that appears on this website is copyright &copy; {{ site.year }} Matthew Ballard and is distributed by an <a href="{{ site.github_org }}/tree/master/LICENSE.txt\">MIT license.
 
-Course materials that do not appear on this website are copyright &copy; 2021 Matthew Ballard and all rights are reserved. In particular, you may not distribute any of these course materials in any fashion. 
+Course materials that do not appear on this website are copyright &copy; {{ site.year }} Matthew Ballard and all rights are reserved. In particular, you may not distribute any of these course materials in any fashion without expressed written permission.
 
 # Tentative Schedule 
 

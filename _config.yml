@@ -13,22 +13,35 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Math 300 
-tagline: Transition to Advanced Mathematics
+title: SCHC 411 
+tagline: Formalization and mathematics 
 honors: true
-description: Thinking and communicating like a mathematician. 
+description: Proving in programming and mathematics
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://300.f22.matthewrobertballard.com' # the base hostname & protocol for your site, e.g. http://example.com
+url: 'https://411.s23.matthewrobertballard.com' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 # logo: '/assets/images/beta.png'
 
-term: Fall 2022
-meeting_time: Mondays, Wednesdays, and Fridays 8:30-9:45 AM
-meeting_location: LeConte College Room 348
-office : LeConte College Room 341
+# pdf2svg: '/opt/homebrew/bin/pdf2svg' 
+# destination: '../UofSC-Spring-2022-Math-300-H01.github.io'
+
+term: Spring
+year: 2023
+meeting_time: Tuesdays and Thursdays 10:05-11:20 am
+meeting_location: TBA
+office : Honors B111
 office_hours: TBD
-bulletin_desc: Rigor of mathematical thinking and proof writing via logic, sets, and functions. Intended to bridge the gap between lower-level (computational-based) and upper-level (proof-based) mathematics courses.
-prereqs: C or better in MATH 142, or consent of the Undergraduate Director
+bulletin_desc: The following course is a proseminar, with specific topics to be selected as need and interests dictate. Generally limited to 18 students, it is either an extensive study of a broad area or an intensive examination of a specific problem.
+prereqs: None, though students would benefit from taking Math 300 or Math 374.
+
+textbook: Anne Baanen, Alexander Bentkamp, Jasmin Blanchette, Johannes Hölzl, Jannis Limperg. The Hitchhiker's Guide to Logical Verification. 2022 Edition.  
+
+teams_url: 
+github_org: 
+github_classroom: 
+
+# google_analytics: 
+
 
 # Theme settings
 # remote_theme: pmarsceill/just-the-docs@v0.3.3
@@ -42,7 +55,7 @@ aux_links:
     - 'https://www.matthewrobertballard.com'
   Microsoft Teams:
     - ''
-footer_content: '<a href="https://300.f22.matthewrobertballard.com/about_this_webpage/">About this webpage.</a> Copyright &copy; 2022 Matthew Ballard. Distributed with an <a href="https://github.com/UofSC-Fall-2022-Math-300-H01.github.io/tree/master/LICENSE.txt\">MIT license.</a> '
+footer_content: '<a href="https://300.f22.matthewrobertballard.com/about_this_webpage/">About this webpage.</a> Copyright &copy; 2023 Matthew Ballard. Distributed with an <a href="https://github.com/UofSC-Spring-2023-SCHC-411-H01.github.io/tree/master/LICENSE.txt\">MIT license.</a> '
 
 # Collections for website data
 collections:
