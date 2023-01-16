@@ -16,28 +16,34 @@
 title: SCHC 411 
 tagline: Formalization and mathematics 
 honors: true
-description: Proving in programming and mathematics
+description: Proofs and programs
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://411.s23.matthewrobertballard.com' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 # logo: '/assets/images/beta.png'
 
-# pdf2svg: '/opt/homebrew/bin/pdf2svg' 
-# destination: '../UofSC-Spring-2022-Math-300-H01.github.io'
+pdf2svg: '/opt/homebrew/bin/pdf2svg' 
+destination: '../uofsc-spring-2023-schc-411-h01.github.io'
 
 term: Spring
 year: 2023
 meeting_time: Tuesdays and Thursdays 10:05-11:20 am
-meeting_location: TBA
-office : Honors B111
-office_hours: TBD
-bulletin_desc: The following course is a proseminar, with specific topics to be selected as need and interests dictate. Generally limited to 18 students, it is either an extensive study of a broad area or an intensive examination of a specific problem.
+meeting_location: Honors B111
+office : LC 341
+office_hours: Thursdays 11:30-2:30
+bulletin_desc: The following course is a proseminar, with specific topics to be
+  selected as need and interests dictate. Generally limited to 18 students, it
+  is either an extensive study of a broad area or an intensive examination of a
+  specific problem.
 prereqs: None, though students would benefit from taking Math 300 or Math 374.
 
-textbook: Anne Baanen, Alexander Bentkamp, Jasmin Blanchette, Johannes Hölzl, Jannis Limperg. The Hitchhiker's Guide to Logical Verification. 2022 Edition.  
+text: Anne Baanen, Alexander Bentkamp, Jasmin Blanchette, Johannes Hölzl,
+  Jannis Limperg. The Hitchhiker's Guide to Logical Verification. 2023 Edition.  
 
-teams_url: 
-github_org: 
+textlink: 'https://github.com/UofSC-Spring-2023-SCHC-411-H01/hitchhikers_guide/'
+
+teams_url: 'https://teams.microsoft.com/l/team/19%3aqDAsZ6--oLwrp3xKpc0GCEbU1C7YkHicBRcRireR2vI1%40thread.tacv2/conversations?groupId=0a4e484b-4000-4de4-b7c7-c0e20885be8f&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc' 
+github_org: 'https://github.com/UofSC-Spring-2023-SCHC-411-H01'
 github_classroom: 
 
 # google_analytics: 
@@ -53,9 +59,13 @@ permalink: pretty
 aux_links:
   Matthew Ballard:
     - 'https://www.matthewrobertballard.com'
-  Microsoft Teams:
+  GitHub: 
+    - 'https://github.com/UofSC-Spring-2023-SCHC-411-H01'
+  GitHub Classroom:
     - ''
-footer_content: '<a href="https://300.f22.matthewrobertballard.com/about_this_webpage/">About this webpage.</a> Copyright &copy; 2023 Matthew Ballard. Distributed with an <a href="https://github.com/UofSC-Spring-2023-SCHC-411-H01.github.io/tree/master/LICENSE.txt\">MIT license.</a> '
+  Microsoft Teams:
+    - 'https://teams.microsoft.com/l/team/19%3aqDAsZ6--oLwrp3xKpc0GCEbU1C7YkHicBRcRireR2vI1%40thread.tacv2/conversations?groupId=0a4e484b-4000-4de4-b7c7-c0e20885be8f&tenantId=4b2a4b19-d135-420e-8bb2-b1cd238998cc'
+footer_content: '<a href="https://411.s23.matthewrobertballard.com/about_this_webpage/">About this webpage.</a> Copyright &copy; 2023 Matthew Ballard. Distributed with an <a href="https://github.com/UofSC-Spring-2023-SCHC-411-H01.github.io/tree/master/LICENSE.txt\">MIT license.</a> '
 
 # Collections for website data
 collections:
@@ -105,9 +115,9 @@ compress_html:
   blanklines: false
   profile: false
 
-kramdown:
-  math_engine: nil
-#  parse_block_html: true
+# kramdown:
+#   math_engine: nil
+# #  parse_block_html: true
 
 plugins:
   - jekyll-seo-tag

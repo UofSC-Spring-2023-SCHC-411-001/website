@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Intro to Proofs
+title: Proofs and programs
 nav_exclude: true
 seo:
   type: Course
@@ -36,7 +36,7 @@ due dates for assignments.
 
 ## Notes 
 
-The [notes tab]({% link notes/intro.md %}) is where you can find the course reading. 
+Notes can be found in their [GitHub repository](https://github.com/UofSC-Spring-2023-SCHC-411-H01/notes/). 
 
 ## Homework
 
