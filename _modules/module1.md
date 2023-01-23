@@ -13,18 +13,20 @@ Jan 17
 
 Jan 19 
 : Intro to inductive types
-  : [Sections 2.1, 2.2]({{ site.textlink }})
+  : [Sections 2.1-2.2]({{ site.textlink }})
+: **Quiz 1**{: .label .label-yellow }
 
 Jan 24 
 : Theorems and proofs
-  : [Sections 2.3,3.1]({{ site.textlink }}) 
+  : [Sections 2.3-3.1]({{ site.textlink }}) 
 : [**HW 1 due**]({% link homework/01.md %}){: .label .label-red }
 
 Jan 26 
 : First tactics and some logic
-  : [Sections 3.2, 3.3]({{ site.textlink }})
+  : [Sections 3.2-3.3]({{ site.textlink }})
+: **Quiz 2**{: .label .label-yellow }
 
 Jan 31 
 : Equality and more tactics
-  : [Sections 3.4, 3.5]({{ site.textlink }}) 
+  : [Sections 3.4-3.5]({{ site.textlink }}) 
 : [**HW 2 due**]({% link homework/02.md %}){: .label .label-red }
