@@ -27,6 +27,11 @@ Jan 26
 : **Quiz 2**{: .label .label-yellow }
 
 Jan 31 
-: Equality and more tactics
-  : [Sections 3.4-3.5]({{ site.textlink }}) 
+: More propositional logic 
+  : [Sections 3.3]({{ site.textlink }}) 
 : [**HW 2 due**]({% link homework/02.md %}){: .label .label-red }
+
+Feb 2 
+: Quantifiers in Lean 
+  : [Sections 3.3]({{ site.textlink }})
+: **Quiz 3**{: .label .label-yellow }
