@@ -1,6 +1,6 @@
 ---
 title: Terms, types, and type-checking
-ended: false
+ended: true
 ---
 
 Jan 12 
@@ -16,22 +16,3 @@ Jan 19
   : [Sections 2.1-2.2]({{ site.textlink }})
 : **Quiz 1**{: .label .label-yellow }
 
-Jan 24 
-: Theorems and proofs
-  : [Sections 2.3-3.1]({{ site.textlink }}) 
-: [**HW 1 due**]({% link homework/01.md %}){: .label .label-red }
-
-Jan 26 
-: First tactics and some logic
-  : [Sections 3.2-3.3]({{ site.textlink }})
-: **Quiz 2**{: .label .label-yellow }
-
-Jan 31 
-: More propositional logic 
-  : [Sections 3.3]({{ site.textlink }}) 
-: [**HW 2 due**]({% link homework/02.md %}){: .label .label-red }
-
-Feb 2 
-: Quantifiers in Lean 
-  : [Sections 3.3]({{ site.textlink }})
-: **Quiz 3**{: .label .label-yellow }
